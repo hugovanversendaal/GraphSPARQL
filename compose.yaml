@@ -1,0 +1,8 @@
+services:
+
+  graphsparql:
+    build: .
+    ports:
+      - "80:80"
+    volumes:
+      - ${PWD}/example:/publish/example
